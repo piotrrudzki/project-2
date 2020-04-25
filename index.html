@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" onblur="this.focus()" autofocus />
+      <button class="clear" type="button" data-options="C">C</button>
+      <button class="backspace" type="button" data-options="CE">CE</button>
+      <button class="number" type="button" data-options="/">/</button>
+      <button class="number" type="button" data-options="*">*</button>
+      <button class="number" type="button" data-options="7">7</button>
+      <button class="number" type="button" data-options="8">8</button>
+      <button class="number" type="button" data-options="9">9</button>
+      <button class="number" type="button" data-options="-">-</button>
+      <button class="number" type="button" data-options="4">4</button>
+      <button class="number" type="button" data-options="5">5</button>
+      <button class="number" type="button" data-options="6">6</button>
+      <button class="number" type="button" data-options="+">+</button>
+      <button class="number" type="button" data-options="1">1</button>
+      <button class="number" type="button" data-options="2">2</button>
+      <button class="number" type="button" data-options="3">3</button>
+      <button class="number" type="button" data-options=".">.</button>
+      <button class="number" type="button" data-options="0">0</button>
+      <button class="result" type="button" data-options="=">=</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
